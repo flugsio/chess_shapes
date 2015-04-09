@@ -15,15 +15,36 @@
    id="svg8327"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="wK.svg">
+   sodipodi:docname="bK.svg">
   <defs
      id="defs8329">
-<filter id="fShadow" width="150%" height="150%">
-    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur" id="feGaussianBlur4609" />
-    <feColorMatrix in="blur" type="matrix" values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.5 0 " result="blurAlpha" id="feColorMatrix4611" />
-    <feOffset in="blurAlpha" dx="4.5" dy="4.5" result="offsetBlur" id="feOffset4613" />
-    <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" id="feBlend4615" />
-</filter>
+    <filter
+       id="fShadow"
+       width="150%"
+       height="150%">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4609" />
+      <feColorMatrix
+         in="blur"
+         type="matrix"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.5 0 "
+         result="blurAlpha"
+         id="feColorMatrix4611" />
+      <feOffset
+         in="blurAlpha"
+         dx="4.5"
+         dy="4.5"
+         result="offsetBlur"
+         id="feOffset4613" />
+      <feBlend
+         in="SourceGraphic"
+         in2="offsetBlur"
+         mode="normal"
+         id="feBlend4615" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -33,16 +54,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="77.892938"
+     inkscape:cx="78.600045"
      inkscape:cy="97.313549"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1680"
-     inkscape:window-height="882"
+     inkscape:window-height="862"
      inkscape:window-x="0"
-     inkscape:window-y="102"
+     inkscape:window-y="122"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -71,9 +92,9 @@
      id="layer1"
      transform="translate(0,0)">
     <path
-       filter="url(#fShadow)"
-       style="fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 68.787109 24.644531 L 24.644531 68.787109 L 24.644531 131.21289 L 68.787109 175.35547 L 131.21289 175.35547 L 175.35547 131.21289 L 175.35547 68.787109 L 131.21289 24.644531 L 68.787109 24.644531 z M 90 75.857422 L 110 75.857422 L 124.14258 90 L 124.14258 110 L 110 124.14258 L 90 124.14258 L 75.857422 110 L 75.857422 90 L 90 75.857422 z "
-       id="path4177" />
+       style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#fShadow)"
+       d="m 68.787109,24.644531 -44.142578,44.142578 0,62.425781 44.142578,44.14258 62.425781,0 44.14258,-44.14258 0,-62.425781 -44.14258,-44.142578 -62.425781,0 z M 90,75.857422 l 20,0 L 124.14258,90 l 0,20 L 110,124.14258 l -20,0 L 75.857422,110 l 0,-20 L 90,75.857422 Z"
+       id="path4177"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
