@@ -17,7 +17,14 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="wN.svg">
   <defs
-     id="defs8329" />
+     id="defs8329">
+<filter id="fShadow" width="150%" height="150%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur" id="feGaussianBlur4609" />
+    <feColorMatrix in="blur" type="matrix" values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.5 0 " result="blurAlpha" id="feColorMatrix4611" />
+    <feOffset in="blurAlpha" dx="4.5" dy="4.5" result="offsetBlur" id="feOffset4613" />
+    <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" id="feBlend4615" />
+</filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -64,6 +71,7 @@
      id="layer1"
      transform="translate(0,0)">
     <path
+       filter="url(#fShadow)"
        style="fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 35.5,122.83874 0,-43.273823 112.67015,-46.508315 15.26217,36.973855 -75.515157,31.171373 75.515157,31.17137 -15.26218,36.97385 z"
        id="path4135"

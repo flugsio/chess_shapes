@@ -17,7 +17,14 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="wK.svg">
   <defs
-     id="defs8329" />
+     id="defs8329">
+<filter id="fShadow" width="150%" height="150%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur" id="feGaussianBlur4609" />
+    <feColorMatrix in="blur" type="matrix" values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.5 0 " result="blurAlpha" id="feColorMatrix4611" />
+    <feOffset in="blurAlpha" dx="4.5" dy="4.5" result="offsetBlur" id="feOffset4613" />
+    <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" id="feBlend4615" />
+</filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -64,6 +71,7 @@
      id="layer1"
      transform="translate(0,0)">
     <path
+       filter="url(#fShadow)"
        style="fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 68.787109 24.644531 L 24.644531 68.787109 L 24.644531 131.21289 L 68.787109 175.35547 L 131.21289 175.35547 L 175.35547 131.21289 L 175.35547 68.787109 L 131.21289 24.644531 L 68.787109 24.644531 z M 90 75.857422 L 110 75.857422 L 124.14258 90 L 124.14258 110 L 110 124.14258 L 90 124.14258 L 75.857422 110 L 75.857422 90 L 90 75.857422 z "
        id="path4177" />
