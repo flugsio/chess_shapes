@@ -15,7 +15,7 @@
    id="svg8327"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="bB.svg">
+   sodipodi:docname="wB.svg">
   <defs
      id="defs8329">
     <filter
@@ -54,7 +54,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="39.532396"
+     inkscape:cx="38.825289"
      inkscape:cy="97.313549"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -91,8 +91,9 @@
      transform="translate(0,0)">
     <path
        style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#fShadow)"
-       d="M 57.573593,29.289322 100,71.715729 142.42641,29.289322 170.71068,57.573593 128.28427,100 170.71068,142.42641 142.42641,170.71068 100,128.28427 57.573593,170.71068 29.289322,142.42641 71.715729,100 29.289322,57.573593 Z"
+       d="M 68.786797,40.502525 100,71.715729 131.21321,40.502525 166.56854,33.431458 159.49747,68.786797 128.28427,100 l 31.2132,31.21321 7.07107,35.35533 -35.35533,-7.07107 L 100,128.28427 68.786797,159.49747 33.431457,166.56854 40.502525,131.21321 71.715729,100 40.502525,68.786797 33.431457,33.431458 Z"
        id="path3337"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc" />
   </g>
 </svg>
