@@ -18,6 +18,13 @@
    sodipodi:docname="bQ.svg">
   <defs
      id="defs8329">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 100 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="200 : 100 : 1"
+       inkscape:persp3d-origin="100 : 66.666667 : 1"
+       id="perspective4469" />
     <filter
        id="fShadow"
        width="150%"
@@ -53,23 +60,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="77.539385"
-     inkscape:cy="97.313549"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="204.70924"
+     inkscape:cy="61.763464"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1680"
-     inkscape:window-height="802"
+     inkscape:window-height="902"
      inkscape:window-x="0"
-     inkscape:window-y="182"
+     inkscape:window-y="82"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-intersection-paths="true"
-     inkscape:object-nodes="true" />
+     inkscape:object-nodes="true"
+     inkscape:snap-midpoints="true" />
   <metadata
      id="metadata8332">
     <rdf:RDF>
@@ -91,8 +99,7 @@
      transform="translate(0,0)">
     <path
        style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#fShadow)"
-       d="M 57.573593,29.289322 80,51.715729 80,20 l 40,0 0,31.715728 22.42641,-22.426406 28.28427,28.284271 L 148.28427,80 180,80 l 0,40 -31.71573,0 22.42641,22.42641 -28.28427,28.28427 L 120,148.28427 120,180 80,180 80,148.28427 57.573593,170.71068 29.289322,142.42641 51.715728,120 20,120 20,80 51.715729,80 29.289322,57.573593 Z"
-       id="path4405"
-       inkscape:connector-curvature="0" />
+       d="M 80 20 L 80 51.714844 L 57.574219 29.289062 L 29.289062 57.574219 L 51.714844 80 L 20 80 L 20 120 L 51.714844 120 L 29.289062 142.42578 L 57.574219 170.71094 L 80 148.28516 L 80 180 L 120 180 L 120 148.28516 L 142.42578 170.71094 L 170.71094 142.42578 L 148.28516 120 L 180 120 L 180 80 L 148.28516 80 L 170.71094 57.574219 L 142.42578 29.289062 L 120 51.714844 L 120 20 L 80 20 z M 100 78.033203 A 21.965883 21.965883 0 0 1 121.9668 100 A 21.965883 21.965883 0 0 1 100 121.9668 A 21.965883 21.965883 0 0 1 78.033203 100 A 21.965883 21.965883 0 0 1 100 78.033203 z "
+       id="path4405" />
   </g>
 </svg>
